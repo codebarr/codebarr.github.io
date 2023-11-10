@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+/*:root{
+    --primary-color:#3f51b5;
+    --secondary-color: #111518;
+    --light-color: #ddd;
+    --white_color: #fff;
+    --gray: #b3b6b7;
+    --light_dark: #181c1f;
+
+}*/
+
+html {
+    font-size: 80%;
+    scroll-behavior: smooth;                /* i added this for click and scroll response*/
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+}
+
+/*--------------utility classes start -----------*/
+body {
+    background: #080808;
+}
+
+a{
+    text-decoration: none;
+}
+
+.primary_btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    font-family: inherit;
+    color: #fff;
+    background: #3f51b5;
+    cursor: pointer;
+    outline: 0;
+    border: 2.5px solid gray;
+    transition: all .3s ease-in-out;
+    margin: 1rem 0;
+}
+
+
+.primary_btn:hover {
+    background: #fff;
+    color: #3f51b5;
+   
+}
+
+/*img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}*/
+
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 70px;
+}
+
+/*--------------utility classes stop -----------*/
+
+
+
+/*--------------header start -----------*/
+/*.homepage {
+    background: url('/images/bg_img.jpg') no-repeat center center/cover;
+    min-height: 100vh;
+}
+
+.homepage img{                
+    width: 50%;
+}*/
+.eventspage {
+    background: url('/images/18lap.jpg') no-repeat center;
+    min-height: 100vh;
+}
+
+.eventspage img{                
+    width: 50%;
+}
+/*.learnmorepage {
+    background: url('/images/iPhone-14-Pro-vs-Galaxy-S23-HQ.png') no-repeat center center/cover;
+    min-height: 100vh;
+}
+
+.learnmorepage img{                
+    width: 50%;
+}*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+.navbar nav{
+    display: flex;
+}
+.navbar nav li {
+    list-style: none;
+    margin-right: 1.5rem;
+}
+.navbar nav li a {
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 1rem .5rem;
+    transition: all .4rem ease-in-out;
+    text-decoration: none;
+}
+
+.logo{
+    margin: 1rem;
+}
+
+.logo img{
+    width: 70%;
+}
+
+
+.navbar nav li a:hover {
+    color: rgb(148, 148, 247);
+}
+
+.navbar .btn {
+    color: white;                        /*changed from var gray*/
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+/*--------------HEADER/showcase start-----------*/
+
+
+
+/*--------------HEADER/showcase start-----------*/
+#showcase .content {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 50%;
+    height: 80vh;
+    align-items: center;
+    grid-gap: 2rem;
+}
+
+#showcase .showcase-content {
+    color: #fff;
+    width: 100%;
+}
+#showcase p {
+    font-size: 1.4rem;
+    color: #fff;
+    line-height: 1.5;
+}
+#showcase h2 {
+    font-size: 6rem;
+    font-weight: 800;
+}
+
+
+
+
+/*--------------HEADER/showcase close-----------*/
+
+
+
+/*--------------HEADER/services start-----------*/
+#services {
+    background: rgba(17, 145,243, 0.4);
+    border-radius: 10px;
+    margin-top: -5%;
+}
+
+
+#services .services_content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+}
+
+#services .icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon i{
+    font-size: 3rem;
+    padding: 2rem;
+    color: #fff;
+}
+
+#services .content {
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+#services .content p{
+    color: #fff;                          /*will change to personal black later*/
+}
+
+/*--------------HEADER/services close-----------*/
+
+
+
+
+/*---========================= Oculus start =========================--*/
+#oculus {
+    padding: 3rem 0;                /*i changed padding*/
+}
+
+
+/*learn how to include gradients on backgrounds*/
+.oculus_content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 10px;
+    align-items: center;
+    background: none;   
+    grid-gap: 2.5rem;  
+}
+
+#oculus .oculus_content {
+    padding: 6rem;
+}
+
+#oculus .oculus_content img {
+    display: block;
+    width: 100%;
+    /*I changed the width*/
+}
+
+#oculus .oculus_content h2 {
+    font-size: 3.7rem;
+    color: #fff;
+    font-weight: 800;
+}
+
+#oculus .oculus_content p {
+    font-size: 1.7rem;
+    color: #fff;
+    padding: 2rem 0;
+}
+/*---========================= Oculus close --===================*/
+
+
+
+/*---==================== ipad pro start ==========================--*/
+#ipad_pro{
+    padding: 2.5rem 0;
+    background: none;
+    /*margin-top: 5rem;*/
+}
+
+.ipad_content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    align-items: center;
+    color: #fff;
+}
+
+.ipad_content img {
+    display: block;
+    width: 100%;                          /*changed image size*/
+    object-fit: cover;
+}
+
+.ipad_left_side p{
+    font-size: 1.7rem;
+}
+
+.ipad_left_side h3{
+    font-size: 2.5rem;
+    color: #c03740;
+}
+/*---========================= ipad pro close====================== --*/
+
+
+
+
+/*---==================== ipad2 pro start ==========================--*/
+#eazi_pro{
+    padding: 2.5rem 0;
+    background: none;
+    /*margin-top: 5rem;*/
+}
+
+.eazi_content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    align-items: center;
+    color: #fff;
+}
+
+.eazi_content img {
+    display: block;
+    width: 100%;                          /*changed image size*/
+    object-fit: cover;
+}
+
+.eazi_left_side p{
+    font-size: 1.7rem;
+}
+
+.eazi_left_side h3{
+    font-size: 2.5rem;
+    color: #c03740;
+}
+/*---========================= ipad2 pro close====================== --*/
+
+
+
+
+
+
+
+
+  /*--- Footer starts --*/
+.footer {
+    padding: 2rem 0;
+    margin-top: 5rem;
+    text-align: center;
+    display: block;
+    background: #111418;
+
+}
+
+
+.footer .logo_ img{
+    width: 8%;
+    align-items: center;
+    margin: 0 43%;
+    padding: 1.5rem 0;
+    transition: all .5s ease-in-out;
+}
+
+.footer .logo_:hover{
+    transform: scale(1.2);
+}
+
+.footer .share {
+    display: flex;
+    gap: 1.5rem;
+    justify-content:  center;
+    flex-wrap: wrap;
+}
+
+.footer .share i{
+    font-size: 2rem;
+    color: #81d4ee;
+    transition: all .5s ease-in-out;
+}
+
+.footer .share i:hover{
+    color: #c03740;
+    transform: scale(1.2);
+}
+
+
+.footer P {
+   padding: 2.5rem 1rem;
+   color: #fff;
+   font-weight: normal;
+   font-size: 1.2rem;
+}
+
+
+.footer P span {
+    color: #138d75;
+}
+
+
+
+/*.footer .logo_{
+    width: 14%;
+    align-items: center;
+    margin: 0 43%;
+    padding: 2.5rem 0;
+    transition: all .5s ease-in-out;
+}*/
+
+
+
+
+/*====Whatsapp ===*/
+.whatsapp-container{
+    position: fixed;
+    right: 7px;
+    bottom: -80px;
+    opacity: 0;
+    padding: 24px;
+    animation: fade-up 1000ms forwards;
+    animation-delay: 1000ms;
+}
+
+@keyframes fade-up{
+    100% {
+        bottom: 110px;
+        opacity: 1;
+    }
+}
+
+.whatsapp-container .whatsapp-btn{
+    font-size: 60px;
+    color: #25d366;
+    display: inline-block;
+    transition: all 400ms;
+}
+.whatsapp-container .whatsapp-btn:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+

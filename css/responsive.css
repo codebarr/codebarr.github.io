@@ -1,0 +1,284 @@
+/*1100px*/
+@media(max-width: 1100px){
+   .container{
+       padding: 0 50px;
+   }
+
+   html {
+       font-size: 70%;
+   }
+
+
+}
+
+/*820px*/
+@media(max-width: 820px){
+
+   /*--------------showcase start-----------*/
+   .container {
+       padding: 0 35px;
+   }
+
+
+   /*#showcase .content {
+       width: 100%;
+   }*/
+   .navbar .btn {
+       display: block;
+   }
+
+   .navbar nav {
+       position: fixed;
+       flex-direction: column;
+       min-height: 50vh;
+       min-width: 100%;
+       top: 0;
+       right: -100%;
+       align-items: flex-start;
+       justify-content: center;
+       transition: all .5s ease-in-out;
+   }
+
+   @supports (backdrop-filter: blur(1rem)){
+      .navbar nav{
+          background: hsl(0 0% 100% / 0.1);
+          backdrop-filter: blur(1rem);
+      }
+   }
+
+
+   .navbar nav.active{
+       right: 0;
+       transition: all .5s ease-in-out;
+   }
+
+   .navbar nav li{
+       margin: 1rem 2rem;
+       border-bottom: 1px solid #ddd;
+       padding-bottom: 1rem;
+       width: 100%;
+   }
+
+   nav li a:hover {
+       color: #5865af;
+   }
+}
+
+
+.slider{
+    z-index: -1;
+ }
+
+/*.showcase-wrapper{
+   z-index: -1;
+}*/
+
+
+     /*--------------showcase close-----------*/
+
+
+   /*--------------services start-----------*/
+   /*#services .services_content {
+       grid-template-columns: repeat(2, 1fr); 
+    }
+
+    #services {
+       margin-top: -35px;
+    }*/
+    /*--------------services close-----------*/
+
+  
+
+    /*--------------gallery start-----------*/
+  /*.gallery_content {
+    grid-template-columns: repeat(1, 1fr); 
+    margin-bottom: -40px;                         I added margin bottom
+   }
+
+   .gal_left_side img {
+       display: block;
+       object-fit: cover;
+       transform: translateY(0%);
+   }*/
+    /*--------------gallery close-----------*/
+
+
+    /*--------------boxes with content starts-----------*/
+    /*.normal_content {
+       grid-template-columns: repeat(2, 1fr);
+   }*/
+    /*--------------boxes with content close-----------*/
+
+
+    /*--------------oculus start-----------*/
+    /*.oculus_content{
+       grid-template-columns: repeat(1, 1fr);
+      
+   }
+
+
+   #oculus .oculus_content img {
+       width: 120%;                                i changed the width
+   }
+
+
+   .products_content {
+       grid-template-columns: repeat(2, 1fr);
+   }*/
+
+   /*--------------oculus close-----------*/
+
+   /*.ipad_content {
+       grid-template-columns: repeat(1, 1fr);
+   }
+
+   .sp_boxes {
+       grid-template-columns: repeat(2, 1fr);
+   }
+
+
+   .order .row  form .inputBox input {
+       width: 100%;
+   }
+
+   .footer .container {
+       grid-template-columns: repeat(2, 1fr); 
+   }*/
+
+
+
+
+
+
+
+
+
+
+/*569px*/
+@media(max-width: 569px){
+
+   .container{
+       padding: 0 25px;
+   }
+
+   /*#services .services_content {
+       grid-template-columns: repeat(1, 1fr);
+       
+    }
+
+    #showcase h2 {
+       font-size: 4rem;
+       
+   }
+
+   .gal_right_side {
+       grid-template-columns: repeat(1, 1fr);
+      }
+
+   .gal_right_side .gallerys:first-child{
+         grid-column: 1/1;
+       
+    }
+    .normal_content {
+       grid-template-columns: repeat(1, 1fr);
+   }
+
+   .oculus_content{
+       grid-template-columns: repeat(1, 1fr);       
+   }
+
+   #oculus .oculus_content h2{
+       font-size: 4rem;
+   }
+
+   #oculus .oculus_content img{
+       width: 200%;
+       margin: 0 -50%;
+   }
+
+   #oculus .oculus_content p {
+       padding: 0.5rem 0;
+   }
+
+   .products_content {
+       grid-template-columns: repeat(1, 1fr);
+   }
+
+   .ipad_content {
+       grid-template-columns: repeat(1, 1fr);
+   }
+
+   .ipad_content img{
+       margin: 0 -5%;
+   }
+
+   .ipad_left_side h2{
+       font-size: 5rem;
+   }
+
+   .sp_boxes {
+       grid-template-columns: repeat(1, 1fr);
+   }
+   .footer .container {
+       grid-template-columns: repeat(1, 1fr); 
+       
+   }*/
+   .close_btn {
+       position: absolute;
+       font-size: 1.5rem;
+       top: 0;
+       left: 80%;
+       margin: 25px;                 /*try to align center it with the rest next time*/
+       color: white;                /*added color black*/
+   }
+
+
+
+   .logo{
+      margin: 1.5rem .5rem;
+  }
+  
+  .logo img{
+      width: 65%;
+  }
+
+  .showcase-wrapper{
+   z-index: -1;
+}
+   /*.footer {
+       padding: 5rem 0;
+       margin-top: 5rem;
+   
+   }
+
+   .footer .logo_{
+       width: 43%;
+       margin: 0 28%;
+   }
+
+
+   .footer .share i{
+       font-size: 2rem;
+   }
+
+   .footer P {
+       font-size: 1rem;
+   }*/
+
+}
+
+
+/*@media screen and (min-width: 400px){
+   .showcase h1{
+       font-size: 4rem;
+   }
+}
+
+@media screen and (min-width: 992px){
+   .showcase h1{
+       font-size: 5rem;
+   }
+   .showcase button{
+       font-size: 1.05rem;
+   }
+}*/
