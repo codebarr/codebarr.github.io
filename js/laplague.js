@@ -123,7 +123,7 @@ const sr = ScrollReveal({
 
 
 sr.reveal(`.home__data, .home__social-link, .home__info,
-           .discover__container,
+           .discover__container, .section__title,
            .experience__data, .experience__overlay,
            .place__card,
            .sponsor__content,
@@ -132,7 +132,7 @@ sr.reveal(`.home__data, .home__social-link, .home__info,
     interval: 100,
 })
 
-sr.reveal(`.about__data, 
+sr.reveal(`.about__data, .place__description,
            .video__description,
            .subscribe__description`,{
     origin: 'left',
