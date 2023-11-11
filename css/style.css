@@ -250,7 +250,7 @@ a{
     }
   
     .slide.current .content {
-      transform: translateY(-450px);
+      transform: translateY(-600px);
       transition: all 1.2s ease-in-out 1s;
     }
   }
