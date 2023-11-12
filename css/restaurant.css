@@ -620,7 +620,11 @@ img{
     text-align: center;
 }
 .footer__group span{
+    color: #fff;
+}
+.footer__group span a{
     color: #c03740;
+    font-weight: bold;
 }
 
 

@@ -774,6 +774,10 @@ input {
   font-size: var(--small-font-size);
   color: var(--text-color-light);
 }
+.footer__copy a {
+  color: #c03740;
+  font-weight: bold;
+}
 
 .footer__terms {
   display: flex;

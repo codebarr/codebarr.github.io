@@ -380,6 +380,10 @@ a{
 .footer P span {
     color: #138d75;
 }
+.footer P a {
+    color: #c03740;
+    font-weight: bold;
+}
 
 
 
